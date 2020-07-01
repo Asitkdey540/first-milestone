@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+.name-style{
+    color: orangered;
+}
+.button-style{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 5px 25px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 60%;
+}
+section{
+    height: 200px;
+    padding-bottom: 460px;
+}
+.top-side{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.middle-side{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
