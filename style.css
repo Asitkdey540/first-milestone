@@ -1,12 +1,17 @@
 body{
     margin:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 h1{
     font-size: 40px;
 }
-p{
-    color: dimgrey;
+h2{
+    text-align: center;
+    font-weight: 700;
+}
+#text{
+color:black;
+font-size: 20px;
 }
 .name-style{
     color: orangered;
@@ -15,7 +20,7 @@ p{
     text-decoration: none;
     background-color: orangered;
     color: whitesmoke;
-    padding: 5px 25px;
+    padding: 12px 40px;
     margin: 15px;
     border-radius: 5px;
     font-size: 15px;
@@ -24,21 +29,82 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    padding-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 100px;
     margin-left: 5%;
 }
-.half-width img{
+#first-img{
     width: 60%;
+}
+.latest-work{
+    width: 29.33%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 50px;
+    padding-left: 1%;
+}
+img{
+    width: 100%;
+    margin-top: 60px;
 }
 section{
     height: 200px;
     padding-bottom: 460px;
 }
-.top-side{
+.top-floor{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    display: inline-block;
 }
-.middle-side{
+.second-floor{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 200px;
+    display: inline-block;
+}
+.first-floor{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin-bottom: 170px;
+    display: inline-block;
+}
+.ground-floor{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+.box{
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid #ff438d;
+    background-color: #ff438d;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 20px;
+}
+.box p{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.box h3{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
+footer{
+    text-align: center;
+    font-weight: 400;
+    color: #80809e;
+    padding-top: 0px;
 }
